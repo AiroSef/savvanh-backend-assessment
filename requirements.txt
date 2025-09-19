@@ -13,3 +13,7 @@ django-celery-results>=2.5.1
 
 # Utils
 python-dotenv>=1.0.1
+django-rest-swagger==2.2.0
+drf-spectacular==0.28.0
+drf-spectacular-sidecar==2025.9.1
+drf-spectacular-sidecar==2025.9.1
