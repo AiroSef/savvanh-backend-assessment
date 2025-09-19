@@ -25,6 +25,10 @@ INSTALLED_APPS = [
 
     # Your apps
     'store',
+    'rest_framework',
+    'rest_framework_swagger',
+    'drf_spectacular',
+    'drf_spectacular_sidecar','
 ]
 
 MIDDLEWARE = [
