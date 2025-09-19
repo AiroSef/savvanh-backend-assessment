@@ -13,7 +13,12 @@ django-celery-results>=2.5.1
 
 # Utils
 python-dotenv>=1.0.1
-django-rest-swagger==2.2.0
-drf-spectacular==0.28.0
-drf-spectacular-sidecar==2025.9.1
-drf-spectacular-sidecar==2025.9.1
+
+# API Documentation
+django-rest-swagger==2.2.0        # Legacy Swagger (deprecated but kept for fallback)
+drf-spectacular==0.28.0           # Modern OpenAPI schema generator
+drf-spectacular-sidecar==2025.9.1 # Static files for Swagger UI & ReDoc
+
+# Authentication (OAuth2 + OpenID Connect)
+django-oauth-toolkit>=2.3.0
+mozilla-django-oidc>=1.2.0
